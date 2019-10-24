@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'A_Pod'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of A_Pod.'
+    s.name             = 'A_Pod'    #名称
+    s.version          = '0.1.0'    #版本号
+    s.summary          = 'A short description of A_Pod.' #描述
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
   s.homepage         = 'https://github.com/Jamie-Ling-iOS/A_Pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
