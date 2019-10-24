@@ -1,4 +1,5 @@
 # A_Pod
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/Jamie-Ling-iOS/A_Pod.svg?style=flat)](https://travis-ci.org/Jamie-Ling-iOS/A_Pod)
 [![Version](https://img.shields.io/cocoapods/v/A_Pod.svg?style=flat)](https://cocoapods.org/pods/A_Pod)
@@ -27,3 +28,6 @@ Jamie-Ling-iOS, chenweixin@turingcat.com
 ## License
 
 A_Pod is available under the MIT license. See the LICENSE file for more info.
+=======
+远程代码库
+>>>>>>> 7bde8aa9ac648c1f9cd4f9be08a0fc227d53235c
