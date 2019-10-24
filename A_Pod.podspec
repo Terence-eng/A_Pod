@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-  s.homepage         = 'https://github.com/Jamie-Ling-iOS/A_Pod'
+  s.homepage         = 'https://github.com/weixin1/A_Pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Terrence' => '924848335@qq.com' }
