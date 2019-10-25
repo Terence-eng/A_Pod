@@ -7,7 +7,6 @@
 //
 
 #import "GTViewController.h"
-
 @interface GTViewController ()
 
 @end
