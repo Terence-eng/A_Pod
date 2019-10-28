@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'A_Pod'    #名称
-    s.version          = '0.3.0'    #版本号
+    s.version          = '0.4.0'    #版本号
     s.summary          = 'A short description of A_Pod.' #描述
 
 # This description is used to generate tags and improve search results.
