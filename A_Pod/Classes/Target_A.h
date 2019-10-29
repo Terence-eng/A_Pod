@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Target_A : NSObject
-- (UIViewController *)Action_viewController;
+- (UIViewController *)Action_viewController:(NSDictionary *)paramter;
 @end
 
 NS_ASSUME_NONNULL_END

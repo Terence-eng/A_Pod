@@ -33,7 +33,6 @@
 - (void)viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-    
     self.pushB_btn.center = self.view.center;
 }
 

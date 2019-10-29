@@ -7,6 +7,7 @@
 //
 
 #import "GTViewController.h"
+#import <CTMediator/CTMediator.h>
 @interface GTViewController ()
 
 @end
@@ -18,7 +19,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
