@@ -1,10 +1,11 @@
 use_frameworks!
 
 platform :ios, '8.0'
-
+source 'git@github.com:weixin1/GTModulizedProject.git'
 target 'A_Pod_Example' do
   pod 'A_Pod', :path => '../'
   pod 'CTMediator'
+  pod 'B_Category', '~> 0.1.0'
   target 'A_Pod_Tests' do
     inherit! :search_paths
 

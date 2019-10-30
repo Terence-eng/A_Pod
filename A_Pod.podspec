@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'A_Pod'    #名称
-    s.version          = '0.7.0'    #版本号
+    s.version          = '0.8.0'    #版本号
     s.summary          = 'A short description of A_Pod.' #描述
  
 # This description is used to generate tags and improve search results.
@@ -38,4 +38,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency pod 'CTMediator', '~> 25'
+  s.dependency 'B_Category', '~> 0.1.0' 
 end

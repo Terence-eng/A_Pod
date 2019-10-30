@@ -8,6 +8,8 @@
 
 #import "GTViewController.h"
 #import <CTMediator/CTMediator.h>
+#import <objc/runtime.h>
+#import "Target_A.h"
 @interface GTViewController ()
 
 @end
@@ -18,6 +20,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    NSString *actionString = [NSString stringWithFormat:@"Action_viewController"];
+//    SEL action = NSSelectorFromString(actionString);
+//    Target_A *target = [Target_A new];
+//    if ([target respondsToSelector:@selector(Action_viewController:)]) {
+//        NSLog(@"success");
+//    }
+    
+    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:@"value",@"2", nil];
+    UIViewController *vc = (UIViewController *)[[CTMediator sharedInstance] performTarget:@"A" action:@"viewController" params:dic shouldCacheTarget:NO];
+    [self presentViewController:vc animated:YES completion:NULL];
+//    [self presentVie]
 }
 - (void)didReceiveMemoryWarning
 {
